@@ -4,7 +4,7 @@ Git is an open-source distributed version control system. It is designed to hand
 
 There are 15 basic commands which are used on every day basis:
 
-1. git init: The git init command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project.
+1. Git init: The git init command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project.
 
 Syntax : 
 
@@ -14,7 +14,7 @@ Syntax :
 The above command will initialize a .git repository on the desktop. Now we can create and add files on this repository for version control.
 
 
-2. git config :  It is a convenience function that is used to set Git configuration values on a global or local project level.
+2. Git config :  It is a convenience function that is used to set Git configuration values on a global or local project level.
 
 Syntax: 
  
@@ -24,7 +24,7 @@ Syntax:
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/36369266/193397490-95c3b4f8-2af5-4467-beb7-8260f4a2e16a.png">
 
-3. git status : The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+3. Git status : The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
 
 Syntax : 
 
@@ -32,7 +32,7 @@ Syntax :
 
 <img width="433" alt="image" src="https://user-images.githubusercontent.com/36369266/193397810-3c448f6b-d163-4288-a279-59687f4a55f8.png">
 
-4. git add : The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
+4. Git add : The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
 
 Syntax: 
         
@@ -42,7 +42,7 @@ Syntax:
 
 <img width="284" alt="image" src="https://user-images.githubusercontent.com/36369266/193397792-4e60d3e8-37bd-4d52-97e1-02b1e6f409ba.png">
 
-5. git commit : This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+5. Git commit : This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
   
   Syntax: 
   
@@ -50,7 +50,7 @@ Syntax:
   
   <img width="281" alt="image" src="https://user-images.githubusercontent.com/36369266/193398070-bc88d7d1-2796-4c7b-8b80-7f65acab0754.png">
 
-6. git branch : A branch is a version of the repository that diverges from the main working project. This command will list all the branches available in repository.
+6. Git branch : A branch is a version of the repository that diverges from the main working project. This command will list all the branches available in repository.
   
   Syntax : 
   
@@ -58,7 +58,7 @@ Syntax:
   
   <img width="139" alt="image" src="https://user-images.githubusercontent.com/36369266/193398258-931eedbe-68e7-4439-9462-1666a981dd68.png">
 
- 7. git remote add : When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
+ 7. Git remote add : When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
 
 Syntax:
 
@@ -66,8 +66,23 @@ Syntax:
       
    <img width="518" alt="image" src="https://user-images.githubusercontent.com/36369266/193398389-12fb39ee-5c83-4ca2-99cc-9bc07814ee18.png">
 
+  8. Git remote -v: Git remote supports a specific option -v to show the URLs that Git has stored as a short name. These short names are used during the reading and write operation. Here, -v stands for verbose.
+
+Syntax:
+
+       $ git remote -v
+       
+   <img width="376" alt="image" src="https://user-images.githubusercontent.com/36369266/193398564-75df949f-5b9a-478f-a351-52f032328183.png">
+
   
+  9. Git Push : It is used to upload local repository content to a remote repository. If we do not specify the location of a repository, then it will push to default location at origin master.
   
+  Syntax:
   
+         $ git push <option> [<Remote URL><branch name><refspec>...]  
+         
+   <img width="338" alt="image" src="https://user-images.githubusercontent.com/36369266/193398712-7b323a17-706e-40a2-b43e-7f7d1b5c1082.png">
+
+  10. 
 
 
