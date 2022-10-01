@@ -8,7 +8,7 @@ There are 15 basic commands which are used on every day basis:
 
 Syntax : 
 
-      git init 
+      $ git init 
 
   <img width="313" alt="image" src="https://user-images.githubusercontent.com/36369266/193397371-1a218cdc-c77f-417a-a9f6-c0cc1b4933ac.png">
 The above command will initialize a .git repository on the desktop. Now we can create and add files on this repository for version control.
@@ -18,9 +18,9 @@ The above command will initialize a .git repository on the desktop. Now we can c
 
 Syntax: 
  
-      git config –global user.name “[name]”
+      $ git config –global user.name “[name]”
 
-      git config –global user.email “[email address]”
+      $ git config –global user.email “[email address]”
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/36369266/193397490-95c3b4f8-2af5-4467-beb7-8260f4a2e16a.png">
 
@@ -28,7 +28,7 @@ Syntax:
 
 Syntax : 
 
-        git status
+       $ git status
 
 <img width="433" alt="image" src="https://user-images.githubusercontent.com/36369266/193397810-3c448f6b-d163-4288-a279-59687f4a55f8.png">
 
@@ -36,9 +36,9 @@ Syntax :
 
 Syntax: 
         
-        git add <filename> // add specific file
+       $ git add <filename> // add specific file
   
-        git add .         // add all the untracked files
+       $ git add .         // add all the untracked files
 
 <img width="284" alt="image" src="https://user-images.githubusercontent.com/36369266/193397792-4e60d3e8-37bd-4d52-97e1-02b1e6f409ba.png">
 
@@ -46,7 +46,7 @@ Syntax:
   
   Syntax: 
   
-        git commit -m <message>
+       $ git commit -m <message>
   
   <img width="281" alt="image" src="https://user-images.githubusercontent.com/36369266/193398070-bc88d7d1-2796-4c7b-8b80-7f65acab0754.png">
 
@@ -54,7 +54,7 @@ Syntax:
   
   Syntax : 
   
-         git branch
+        $ git branch
   
   <img width="139" alt="image" src="https://user-images.githubusercontent.com/36369266/193398258-931eedbe-68e7-4439-9462-1666a981dd68.png">
 
@@ -62,7 +62,7 @@ Syntax:
 
 Syntax:
 
-      git remote add <short name><remote URL>  
+        $ git remote add <short name><remote URL>  
       
    <img width="518" alt="image" src="https://user-images.githubusercontent.com/36369266/193398389-12fb39ee-5c83-4ca2-99cc-9bc07814ee18.png">
 
