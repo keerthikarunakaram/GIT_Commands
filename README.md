@@ -50,7 +50,7 @@ Syntax:
   
   <img width="281" alt="image" src="https://user-images.githubusercontent.com/36369266/193398070-bc88d7d1-2796-4c7b-8b80-7f65acab0754.png">
 
-6. Git branch : A branch is a version of the repository that diverges from the main working project. This command will list all the branches available in repository.
+6. Git List branch : A branch is a version of the repository that diverges from the main working project. This command will list all the branches available in repository.
   
   Syntax : 
   
@@ -83,6 +83,41 @@ Syntax:
          
    <img width="338" alt="image" src="https://user-images.githubusercontent.com/36369266/193398712-7b323a17-706e-40a2-b43e-7f7d1b5c1082.png">
 
-  10. 
+  10.Git Create branch : This command will create the new branch.
+  
+  Syntax : 
+  
+        $ git branch <branch name>
+        
+   <img width="215" alt="image" src="https://user-images.githubusercontent.com/36369266/193404707-60c692d6-1134-4820-a14b-604094f5ccd9.png">
+
+  11. Git Checkout :  It lets you navigate between the branches created by git branch.
+  
+  Syntax : 
+  
+        $ git checkout <branch name>
+        
+   <img width="202" alt="image" src="https://user-images.githubusercontent.com/36369266/193404858-686979a7-fd70-4106-852b-99da0d280128.png">
+
+12. Git Merge : The git merge command facilitates you to take the data created by git branch and integrate them into a single branch.
+ 
+ Syntax : 
+  
+        $ git merge <branch name>
+<img width="189" alt="image" src="https://user-images.githubusercontent.com/36369266/193405044-e1a776f2-5008-4c6a-a6da-1f6406cc3855.png">
+
+13. Git log : It is a utility tool to review and read a history of everything that happens to a repository.
+
+Syntax:
+
+        $ git log
+ <img width="508" alt="image" src="https://user-images.githubusercontent.com/36369266/193405147-110431b6-7c21-4653-a802-10ffb70ea71e.png">
+
+14. Git Branch delete: It is used to delete the local git branch.
+
+Syntax:
+
+        $ git branch -d <branch name>
+  <img width="220" alt="image" src="https://user-images.githubusercontent.com/36369266/193405280-b3290b36-af1b-4e35-8ccb-4dfdc206449e.png">
 
 
