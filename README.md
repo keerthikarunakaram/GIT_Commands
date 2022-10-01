@@ -120,4 +120,10 @@ Syntax:
         $ git branch -d <branch name>
   <img width="220" alt="image" src="https://user-images.githubusercontent.com/36369266/193405280-b3290b36-af1b-4e35-8ccb-4dfdc206449e.png">
 
+15. Git Clone: The git clone command is used to create a local working copy of an existing remote repository.
+
+Synatax:
+
+        $ git clone <remote_URL>
+   <img width="529" alt="image" src="https://user-images.githubusercontent.com/36369266/193405605-1e738ef5-2f90-46c5-960a-ab1833727f0c.png">
 
