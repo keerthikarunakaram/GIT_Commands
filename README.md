@@ -6,7 +6,9 @@ There are 15 basic commands which are used on every day basis:
 
 1. git init: The git init command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project.
 
-Syntax : git init 
+Syntax : 
+
+      git init 
 
   <img width="313" alt="image" src="https://user-images.githubusercontent.com/36369266/193397371-1a218cdc-c77f-417a-a9f6-c0cc1b4933ac.png">
 The above command will initialize a .git repository on the desktop. Now we can create and add files on this repository for version control.
@@ -14,17 +16,58 @@ The above command will initialize a .git repository on the desktop. Now we can c
 
 2. git config :  It is a convenience function that is used to set Git configuration values on a global or local project level.
 
-Syntax: git config –global user.name “[name]”
+Syntax: 
+ 
+      git config –global user.name “[name]”
 
-Syntax: git config –global user.email “[email address]”
+      git config –global user.email “[email address]”
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/36369266/193397490-95c3b4f8-2af5-4467-beb7-8260f4a2e16a.png">
 
 3. git status : The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
 
-Syntax : git status
+Syntax : 
 
-<img width="270" alt="image" src="https://user-images.githubusercontent.com/36369266/193397604-5f9092f6-3449-4455-b7f3-46d1cb638684.png">
+        git status
 
+<img width="433" alt="image" src="https://user-images.githubusercontent.com/36369266/193397810-3c448f6b-d163-4288-a279-59687f4a55f8.png">
+
+4. git add : The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
+
+Syntax: 
+        
+        git add <filename> // add specific file
+  
+        git add .         // add all the untracked files
+
+<img width="284" alt="image" src="https://user-images.githubusercontent.com/36369266/193397792-4e60d3e8-37bd-4d52-97e1-02b1e6f409ba.png">
+
+5. git commit : This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+  
+  Syntax: 
+  
+        git commit -m <message>
+  
+  <img width="281" alt="image" src="https://user-images.githubusercontent.com/36369266/193398070-bc88d7d1-2796-4c7b-8b80-7f65acab0754.png">
+
+6. git branch : A branch is a version of the repository that diverges from the main working project. This command will list all the branches available in repository.
+  
+  Syntax : 
+  
+         git branch
+  
+  <img width="139" alt="image" src="https://user-images.githubusercontent.com/36369266/193398258-931eedbe-68e7-4439-9462-1666a981dd68.png">
+
+ 7. git remote add : When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
+
+Syntax:
+
+      git remote add <short name><remote URL>  
+      
+   <img width="518" alt="image" src="https://user-images.githubusercontent.com/36369266/193398389-12fb39ee-5c83-4ca2-99cc-9bc07814ee18.png">
+
+  
+  
+  
 
 
